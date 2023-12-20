@@ -38,8 +38,8 @@ const submit=(e)=>{
     id:Id,
     name:name,
     address:address,
-    number:Cnumber,
-    customer:Mnumber
+    number:Mnumber,
+    customer:Cnumber
   }
   console.log(dat);
 fetch(`http://localhost:4000/update`,{

@@ -63,7 +63,7 @@ const AddUser = () => {
         </div>
         <div className="row mt-3">
           <div className="col-6">
-            <label className="form-label">Customer Number</label>
+            <label className="form-label">Customer Meter Number</label>
             <input
               type="number"
               className="form-control"
@@ -75,7 +75,7 @@ const AddUser = () => {
             />
           </div>
           <div className="col-6">
-            <label className="form-label">Customer Meter Number</label>
+            <label className="form-label"> Customer Number</label>
             <input
               type="number"
               className="form-control"
